@@ -11,7 +11,7 @@
 $dir = scandir('/opt/lampp/htdocs/');
 
 foreach($dir as $dir) {
-    echo '<a href="/$dir">$dir</a>'
+    echo '<a href="/$dir">$dir</a>';
 }
 ?>
 </body>
