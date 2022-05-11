@@ -8,7 +8,7 @@
 <body>
 <h1>moir.org.uk</h1>
 <?php
-$dir = scandir('/opt/lampp/htdocs/');
+$dir = array_diff(scandir('/opt/lampp/htdocs/'), array('.', '..', 'style.css', 'index.php'));
 
 foreach($dir as $file) {
     echo "<a href=$file>".basename($file)."</a>";
