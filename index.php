@@ -10,8 +10,8 @@
 <?php
 $dir = scandir('/opt/lampp/htdocs/');
 
-foreach($dir as $dir) {
-    echo '<a href="/$dir">$dir</a>';
+foreach($dir as $link) {
+    echo '<a href="/$link">$link</a>';
 }
 ?>
 </body>
