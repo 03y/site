@@ -3,6 +3,7 @@
 <head>
 <title>moir.org.uk</title>
 <link rel="stylesheet" href="style.css">
+<link id="favicon" rel="shortcut icon" type="image/png" href="favicon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
