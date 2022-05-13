@@ -1,7 +1,7 @@
 * {
-    margin-top: 0.1em;
+    margin-top: 1em;
     text-align: center;
-    font-family: mono,monospace;
+    font-family: monospace,serif;
     color: white;
     background-color: #1e1e1e;
 }
@@ -11,7 +11,7 @@ h1 {
 }
 
 a {
-  font-size: 0.875em;
+  font-size: 1em;
 }
 
 a:link {
