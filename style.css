@@ -1,9 +1,17 @@
 * {
-    margin-top: 5em;
+    margin-top: 0.1em;
     text-align: center;
     font-family: mono,monospace;
     color: white;
     background-color: #1e1e1e;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+a {
+  font-size: 0.875em;
 }
 
 a:link {
